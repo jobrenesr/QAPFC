@@ -197,8 +197,5 @@ public void Parte4() throws IOException, InterruptedException {
 		report.logger.log(Status.FAIL, MarkupHelper.createLabel("Caso de prueba ERRONEO", ExtentColor.RED));
 	}
 
-	
-
-
-	}
+}
 }

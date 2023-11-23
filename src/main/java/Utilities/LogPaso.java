@@ -1,9 +1,9 @@
 package Utilities;
 
 public class LogPaso {
-	
-private static LogPaso instance = null;
-	
+
+	private static LogPaso instance = null;
+
 	// Patron Singleton para no generar nuevas instancias
 	public static LogPaso getInstance() {
 		if (null == instance)
